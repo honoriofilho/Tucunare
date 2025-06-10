@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		775971AD2DF8620F00E9F8AD /* README.MD in Sources */ = {isa = PBXBuildFile; fileRef = 775971AC2DF8620D00E9F8AD /* README.MD */; };
+		775971AD2DF8620F00E9F8AD /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 775971AC2DF8620D00E9F8AD /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +31,7 @@
 		775971822DF8619F00E9F8AD /* Tucunare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tucunare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7759718F2DF861A100E9F8AD /* TucunareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TucunareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		775971992DF861A100E9F8AD /* TucunareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TucunareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		775971AC2DF8620D00E9F8AD /* README.MD */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.MD; sourceTree = "<group>"; };
+		775971AC2DF8620D00E9F8AD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -83,7 +83,7 @@
 				775971842DF8619F00E9F8AD /* Tucunare */,
 				775971922DF861A100E9F8AD /* TucunareTests */,
 				7759719C2DF861A100E9F8AD /* TucunareUITests */,
-				775971AC2DF8620D00E9F8AD /* README.MD */,
+				775971AC2DF8620D00E9F8AD /* README.md */,
 				775971832DF8619F00E9F8AD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -242,7 +242,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				775971AD2DF8620F00E9F8AD /* README.MD in Sources */,
+				775971AD2DF8620F00E9F8AD /* README.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

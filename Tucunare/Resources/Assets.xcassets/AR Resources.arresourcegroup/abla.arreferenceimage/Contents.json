@@ -1,7 +1,7 @@
 {
   "images" : [
     {
-      "filename" : "iphone-x.jpg",
+      "filename" : "abla.png",
       "idiom" : "universal"
     }
   ],
@@ -10,6 +10,7 @@
     "version" : 1
   },
   "properties" : {
-    "width" : 2.456
+    "unit" : "centimeters",
+    "width" : 15
   }
 }

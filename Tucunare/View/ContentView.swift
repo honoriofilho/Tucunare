@@ -12,7 +12,6 @@ struct ContentView: View {
         ZStack {
             ARViewContainer()
                 .edgesIgnoringSafeArea(.all)
-            
             VStack {
                 Spacer()
                 Text("Aponte para uma imagem")

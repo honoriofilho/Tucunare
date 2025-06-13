@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		775971AD2DF8620F00E9F8AD /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 775971AC2DF8620D00E9F8AD /* README.md */; };
+		775971E02DF9B52700E9F8AD /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 775971DF2DF9B52700E9F8AD /* RealityKitContent */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +31,6 @@
 		775971822DF8619F00E9F8AD /* Tucunare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tucunare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7759718F2DF861A100E9F8AD /* TucunareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TucunareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		775971992DF861A100E9F8AD /* TucunareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TucunareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		775971AC2DF8620D00E9F8AD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -50,6 +49,11 @@
 			path = TucunareUITests;
 			sourceTree = "<group>";
 		};
+		775971DC2DF9B4E700E9F8AD /* Packages */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Packages;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				775971E02DF9B52700E9F8AD /* RealityKitContent in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,10 +85,10 @@
 		775971792DF8619F00E9F8AD = {
 			isa = PBXGroup;
 			children = (
+				775971DC2DF9B4E700E9F8AD /* Packages */,
 				775971842DF8619F00E9F8AD /* Tucunare */,
 				775971922DF861A100E9F8AD /* TucunareTests */,
 				7759719C2DF861A100E9F8AD /* TucunareUITests */,
-				775971AC2DF8620D00E9F8AD /* README.md */,
 				775971832DF8619F00E9F8AD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -115,9 +120,11 @@
 			);
 			fileSystemSynchronizedGroups = (
 				775971842DF8619F00E9F8AD /* Tucunare */,
+				775971DC2DF9B4E700E9F8AD /* Packages */,
 			);
 			name = Tucunare;
 			packageProductDependencies = (
+				775971DF2DF9B52700E9F8AD /* RealityKitContent */,
 			);
 			productName = Tucunare;
 			productReference = 775971822DF8619F00E9F8AD /* Tucunare.app */;
@@ -201,6 +208,9 @@
 			);
 			mainGroup = 775971792DF8619F00E9F8AD;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				775971DE2DF9B52700E9F8AD /* XCLocalSwiftPackageReference "Packages/RealityKitContent" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 775971832DF8619F00E9F8AD /* Products */;
 			projectDirPath = "";
@@ -242,7 +252,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				775971AD2DF8620F00E9F8AD /* README.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,7 +413,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = V2F58L8W9T;
+				DEVELOPMENT_TEAM = W8HS7RX76D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "Este aplicativo utiliza AR, portanto precisamos de acesso a sua câmera";
@@ -434,7 +443,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = V2F58L8W9T;
+				DEVELOPMENT_TEAM = W8HS7RX76D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "Este aplicativo utiliza AR, portanto precisamos de acesso a sua câmera";
@@ -569,6 +578,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		775971DE2DF9B52700E9F8AD /* XCLocalSwiftPackageReference "Packages/RealityKitContent" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/RealityKitContent;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		775971DF2DF9B52700E9F8AD /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7759717A2DF8619F00E9F8AD /* Project object */;
 }

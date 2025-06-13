@@ -1,0 +1,33 @@
+{
+  "2977EAFE-B569-459A-A926-14EDD8A38C18" : {
+    "objectMetadataList" : [
+      [
+        "2977EAFE-B569-459A-A926-14EDD8A38C18",
+        "Root",
+        "Timeline",
+        "Track"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "2977EAFE-B569-459A-A926-14EDD8A38C18",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "2977EAFE-B569-459A-A926-14EDD8A38C18",
+        "Root",
+        "Timeline"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  }
+}
